@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    product:
+      url: localhost:8090
+ribbon:
+  eureka:
+    enabled: false
+server:
+  port: 8080
